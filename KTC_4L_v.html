@@ -8,6 +8,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+<script>
+  var password = "3667";
+  (function passcodeprotect() {
+    var passcode = prompt("Unesi šifru");
+    while (passcode !== password) {
+      alert("Kriva šifra");
+      return passcodeprotect();
+    }
+  }());
+</script>
+
 .meni_1 {
   overflow: hidden;
   background-color: #333;
