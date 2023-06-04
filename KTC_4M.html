@@ -1,6 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script type="text/javascript" src="https://kunstek.github.io/data/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#button_kupac').click(function(e) {  
+        var inputvalue = $("#input_kupac").val();
+        window.open("https://workflowy.com/#?q=#kupac "+inputvalue);
+        window.location.reload();
+
+    });
+
+    $('#button_dobavljac').click(function(e) {  
+        var inputvalue = $("#input_dobavljac").val();
+        window.open("https://workflowy.com/#?q=#dobavljač "+inputvalue);
+        window.location.reload();
+
+    });
+
+    $('#button_info').click(function(e) {  
+        var inputvalue = $("#input_info").val();
+        window.open("https://workflowy.com/#?q=#info "+inputvalue);
+        window.location.reload();
+
+    });
+    $('#button_upute').click(function(e) {  
+        var inputvalue = $("#input_upute").val();
+        window.open("https://workflowy.com/#/afafda1265f9?q="+inputvalue);
+        window.location.reload();
+
+    });
+
+
+    $('#button_sve').click(function(e) {  
+        var inputvalue = $("#input_sve").val();
+        window.open("https://workflowy.com/#?q="+inputvalue);
+        window.location.reload();
+
+    });
+
+});
+
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
