@@ -260,15 +260,15 @@ body {
 if( document.getElementById('obavijesti').files[0].size != 0 ){
 <div class="alert-box">
   <span class="badge">Obavijest:</span><span id="result"></span>
-<!--	<div id="result"></div> -->
-	<script>
+//	<div id="result"></div>
+//	<script>
     const xhttp = new XMLHttpRequest()
             xhttp.onload = function(){
                 document.getElementById('result').innerHTML = this.responseText
             }
         xhttp.open("GET", "obavijesti.txt", true)
         xhttp.send()
-	</script>
+//	</script> 
 </div>
 }
 </script>
