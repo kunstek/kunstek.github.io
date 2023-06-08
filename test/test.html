@@ -259,17 +259,15 @@ body {
 	
 
 <div class="alert-box">
-<span class="badge">Obavijest:</span>
-	<span id="result"></span>
+	<span class="badge">Obavijest:</span><span id="result"></span>
+</div>
 <script>
-	  const xhttp = new XMLHttpRequest()
-            xhttp.onload = function(){
-                document.getElementById('result').innerHTML = this.responseText
-            }
+	const xhttp = new XMLHttpRequest()
+	xhttp.onload = function(){
+		document.getElementById('result').innerHTML = this.responseText
+	}
         xhttp.open("GET", "obavijesti.txt", true)
         xhttp.send()
-
-// </div>
 </script>
 	
 <!-- ********** K  R  A  J      O  B  A  V  I  J  E  S  T  I ********** -->
