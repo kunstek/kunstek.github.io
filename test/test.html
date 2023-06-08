@@ -257,16 +257,7 @@ body {
 <!-- ********** O  B  A  V  I  J  E  S  T ********** -->
 <script>
 	
-	 var myFSO = new ActiveXObject("Scripting.FileSystemObject");
- var filepath = document.upload.file.value;
- var thefile = myFSO.getFile("obavijesti.txt");
- var size = thefile.size;
- alert(size + " bytes");
-	
-	
-	const files = e.target.files;
-<input type="file" name="obavijesti.txt" id="obavijesti" />
-if( document.getElementById('obavijesti').files[0].size != 0 ){
+
 <div class="alert-box">
   <span class="badge">Obavijest:</span><span id="result"></span>
 	  const xhttp = new XMLHttpRequest()
@@ -277,7 +268,6 @@ if( document.getElementById('obavijesti').files[0].size != 0 ){
         xhttp.send()
 
 </div>
-}
 </script>
 	
 <!-- ********** K  R  A  J      O  B  A  V  I  J  E  S  T  I ********** -->
