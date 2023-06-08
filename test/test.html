@@ -256,6 +256,14 @@ body {
 
 <!-- ********** O  B  A  V  I  J  E  S  T ********** -->
 <script>
+	
+	 var myFSO = new ActiveXObject("Scripting.FileSystemObject");
+ var filepath = document.upload.file.value;
+ var thefile = myFSO.getFile("obavijesti.txt");
+ var size = thefile.size;
+ alert(size + " bytes");
+	
+	
 	const files = e.target.files;
 <input type="file" name="obavijesti.txt" id="obavijesti" />
 if( document.getElementById('obavijesti').files[0].size != 0 ){
