@@ -259,12 +259,14 @@ body {
 <div class="alert-box">
   <span class="badge">Obavijest:</span> U ponedjeljak 12.06.2023. dolazi novi radnik Josip Mutak, a Luka Kralik prelazi na BP Prilesje jug.
     <div id="result">neki tekst</div>
+	<script>
     const xhttp = new XMLHttpRequest()
             xhttp.onload = function(){
                 document.getElementById('result').innerHTML = this.responseText
             }
         xhttp.open("GET", "obavijesti.txt", true)
         xhttp.send()
+	</script>
 </div>
 
 <!-- ********** K  R  A  J      O  B  A  V  I  J  E  S  T  I ********** -->
