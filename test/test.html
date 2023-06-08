@@ -10,16 +10,15 @@
 <body>
     <div id="result">neki tekst</div>
 <!--    <button onclick="fetchData()">Klikni</button> -->
-    fetchData().onload
 </body>
     <script>
-        function fetchData(){
+<!--        function fetchData(){ -->
             const xhttp = new XMLHttpRequest()
             xhttp.onload = function(){
                 document.getElementById('result').innerHTML = this.responseText
             }
         xhttp.open("GET", "obavijesti.txt", true)
         xhttp.send()
-        }
+<!--        } ..>
     </script>
 </html>
