@@ -182,6 +182,50 @@ body {
   color: white;
 }
 
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert .close {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #F70000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.alert.crveno {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert.zuto {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+.alert.plavo {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.alert.zeleno {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert.sivo {
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+}
+
 </style>
 </head>
 <body>
@@ -244,6 +288,7 @@ body {
   <a href="https://drive.google.com/drive/u/1/folders/1at1x_fNQ9qIALEOpBxYTLUiFdIgUZhaY" target="_blank">datoteke za slanje</a>
   <a href="https://drive.google.com/drive/u/1/folders/1L2Im5Ah7VpUdTZCkXCraQ4Xw5O-4MJzg" target="_blank">otpremnice Montana</a>
   <a href="https://workflowy.com/#?q=#aktivna_prodaja today - 2099-12-31" target="_blank">aktivna prodaja</a>
+  <a href="https://workflowy.com/#/38a28410ac03/#?q=#zahtjev today - 2099-12-31" target="_blank">prilagodba rasporeda</a>
 </div>
 
 <div class="meni_4">
@@ -254,16 +299,32 @@ body {
 
 
 
+
 <!-- ********** O  B  A  V  I  J  E  S  T  I ********** -->
 
+<!-- ********** O  B  A  V  I  J  E  S  T  I     (  S  T  A  R  O  )********** -->
+<!--
 <div class="alert-box"><span class="badge">Obavijest:</span>
- Zvonko Stričak promijenio termin godišnjeg odmora (ide od 29.06.2023.) - ponovo promjena rasporeda.
+  Zvonko Stričak promijenio termin godišnjeg odmora (ide od 29.06.2023.) - ponovo promjena rasporeda.
+</div>
+-->
+
+<!-- P R I M J E R   O B A V I J E S T I    crveno, zuto, plavo, zeleno, sivo
+<div class="alert crveno">
+  12.06.2023. dolazi novi radnik Josip Mutak, a Luka Kralik prelazi na BP Prilesje jug.
+  <span class="close" onclick="this.parentElement.style.display='none'">×</span>
+</div>
+-->
+
+<div class="alert crveno">
+  12.06.2023. dolazi novi radnik Josip Mutak, a Luka Kralik prelazi na BP Prilesje jug
+</div>
+
+<div class="alert zeleno">
+  Promjena rasporeda od 11.06.2023. na dalje: Zvonko Stričak promijenio termin godišnjeg odmora (od 29.06.2023.)
 </div>
 
 <!-- ********** K  R  A  J      O  B  A  V  I  J  E  S  T  I ********** -->
-
-
-
 
 <br />
 <center>
