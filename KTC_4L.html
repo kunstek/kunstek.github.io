@@ -2,14 +2,6 @@
 <html>
 <head>
 
-  <style type="text/css">
-    .mobileHide { display: inline;}
-    /* Smartphone Portrait and Landscape */
-    @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 767px){  .mobileHide { display: none;}}
- </style>
-
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
 <script type="text/javascript">
@@ -55,7 +47,16 @@ $(document).ready(function(){
 
 </script>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+<style>
+      @media (max-width: 767px) {
+        .mobileHide {
+          display: none;
+        }
+      }
+</style>
+
 <style>
 
 .alert-box {
