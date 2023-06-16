@@ -2,6 +2,14 @@
 <html>
 <head>
 
+  <style type="text/css">
+    .mobileHide { display: inline;}
+    /* Smartphone Portrait and Landscape */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){  .mobileHide { display: none;}}
+ </style>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
 <script type="text/javascript">
@@ -252,58 +260,68 @@ body {
 <!--  <p>Linkovi na razne dokumente</p>  -->
 </div>
 
-<div class="meni_1">
-  <a class="active" href="">izvještaji</a>
-  <a href="https://docs.google.com/spreadsheets/d/1Re4468LIca0Y987gd3XR6dCvlTzDzaI0rvDA9G2noYE/edit#gid=0" target="_blank">cijene konkurencije</a>
-<!--  <a href="https://docs.google.com/spreadsheets/d/1XUVu8heCeuEnpnIbA2uF4NGCSFSZDqb-17LcfLzRomk/edit#gid=608531191" target="_blank">gorivo - stanje</a> -->
-  <a href="https://docs.google.com/spreadsheets/d/1iVuQqQvkcoXUhfz-b_zYOIDI-tKGsX1A4LPulab-igY" target="_blank">obrtaji</a>
-  <a href="https://docs.google.com/spreadsheets/d/1qM4KGMe-WL8FVfTXvFjEdoDy_SQeQjl4EZ4j-yns50A/edit#gid=0" target="_blank">prodane količine</a>
-  <a href="https://docs.google.com/spreadsheets/d/1xQ8mhkFK92kgDOhIguiN7C8G7lR2_dGO4Z8oVvs7i8A/edit#gid=105892979" target="_blank">razlike robno - knjiga</a>
-</div>
+<div class="mobileHide">
+  <div class="meni_1">
+    <a class="active" href="">izvještaji</a>
+    <a href="https://docs.google.com/spreadsheets/d/1Re4468LIca0Y987gd3XR6dCvlTzDzaI0rvDA9G2noYE/edit#gid=0" target="_blank">cijene konkurencije</a>
+  <!--  <a href="https://docs.google.com/spreadsheets/d/1XUVu8heCeuEnpnIbA2uF4NGCSFSZDqb-17LcfLzRomk/edit#gid=608531191" target="_blank">gorivo - stanje</a> -->
+    <a href="https://docs.google.com/spreadsheets/d/1iVuQqQvkcoXUhfz-b_zYOIDI-tKGsX1A4LPulab-igY" target="_blank">obrtaji</a>
+    <a href="https://docs.google.com/spreadsheets/d/1qM4KGMe-WL8FVfTXvFjEdoDy_SQeQjl4EZ4j-yns50A/edit#gid=0" target="_blank">prodane količine</a>
+    <a href="https://docs.google.com/spreadsheets/d/1xQ8mhkFK92kgDOhIguiN7C8G7lR2_dGO4Z8oVvs7i8A/edit#gid=105892979" target="_blank">razlike robno - knjiga</a>
+  </div>
 
-<div class="meni_1">
-  <a class="active" href="">evidencije</a>
-  <a href="https://docs.google.com/spreadsheets/d/1F-EMD-Oo512eWfW5EuECB8feoa9yL6rggzKiU2f8ZMQ/edit#gid=1778885534" target="_blank">bonovi</a>
-  <a href="https://docs.google.com/spreadsheets/d/1F-EMD-Oo512eWfW5EuECB8feoa9yL6rggzKiU2f8ZMQ/edit#gid=0" target="_blank">istovar goriva</a>
-  <a href="https://docs.google.com/spreadsheets/d/15NyjkB58NAI2V0dg3nb4kN2ZHJ8Y39tI-Nx4RbhWTf0/edit#gid=675654393" target="_blank">istovar goriva (Sandra)</a>
-</div>
+  <div class="meni_1">
+    <a class="active" href="">evidencije</a>
+    <a href="https://docs.google.com/spreadsheets/d/1F-EMD-Oo512eWfW5EuECB8feoa9yL6rggzKiU2f8ZMQ/edit#gid=1778885534" target="_blank">bonovi</a>
+    <a href="https://docs.google.com/spreadsheets/d/1F-EMD-Oo512eWfW5EuECB8feoa9yL6rggzKiU2f8ZMQ/edit#gid=0" target="_blank">istovar goriva</a>
+    <a href="https://docs.google.com/spreadsheets/d/15NyjkB58NAI2V0dg3nb4kN2ZHJ8Y39tI-Nx4RbhWTf0/edit#gid=675654393" target="_blank">istovar goriva (Sandra)</a>
+  </div>
 
-<div class="meni_1">
-  <a class="active" href="">gorivo</a>
-  <a href="https://docs.google.com/spreadsheets/d/1jvXIjSz_DXV4ePzE8II85g1WAFRooqT5vw_bq1aeB9U/edit#gid=1810998143" target="_blank">inventura goriva</a>
-  <a href="https://docs.google.com/spreadsheets/d/1XUVu8heCeuEnpnIbA2uF4NGCSFSZDqb-17LcfLzRomk/edit#gid=0" target="_blank">raspored goriva</a>
-</div>
+  <div class="meni_1">
+    <a class="active" href="">gorivo</a>
+    <a href="https://docs.google.com/spreadsheets/d/1jvXIjSz_DXV4ePzE8II85g1WAFRooqT5vw_bq1aeB9U/edit#gid=1810998143" target="_blank">inventura goriva</a>
+    <a href="https://docs.google.com/spreadsheets/d/1XUVu8heCeuEnpnIbA2uF4NGCSFSZDqb-17LcfLzRomk/edit#gid=0" target="_blank">raspored goriva</a>
+  </div>
 
-<div class="meni_1">
-  <a class="active" href="">narudžbe</a>
-  <a href="https://docs.google.com/spreadsheets/d/1qNq47fbzEftf2yJVVFYbjUXbUXrGIuW1YMQYMzw0bcI/edit#gid=0" target="_blank">narudžba robe</a>
+  <div class="meni_1">
+    <a class="active" href="">narudžbe</a>
+    <a href="https://docs.google.com/spreadsheets/d/1qNq47fbzEftf2yJVVFYbjUXbUXrGIuW1YMQYMzw0bcI/edit#gid=0" target="_blank">narudžba robe</a>
+  </div>
 </div>
 
 <div class="meni_1">
   <a class="active" href="">roba</a>
-  <a href="https://docs.google.com/spreadsheets/d/11zCMFuApR1TcBGbQPf_vmKennK78LzgY_rMecGoczUY" target="_blank">letak</a>
+  <div class="mobileHide">
+    <a href="https://docs.google.com/spreadsheets/d/11zCMFuApR1TcBGbQPf_vmKennK78LzgY_rMecGoczUY" target="_blank">letak</a>
+  </div>
   <a href="https://docs.google.com/spreadsheets/d/17fbQZID3cuWNq2yH0xAfBNa5csCgC7lNy12C8buWlZk/edit#gid=0" target="_blank">rokovi</a>
-  <a href="https://docs.google.com/spreadsheets/d/1idgkY_7pScemaDM06c-JTrLAop2hUIDU8ZnIVLkIIkk" target="_blank">zahtjev za sniženje</a>
+  <div class="mobileHide2">
+    <a href="https://docs.google.com/spreadsheets/d/1idgkY_7pScemaDM06c-JTrLAop2hUIDU8ZnIVLkIIkk" target="_blank">zahtjev za sniženje</a>
+  </div>
 </div>
 
-<div class="meni_1">
-  <a class="active" href="">novci</a>
-  <a href="https://docs.google.com/spreadsheets/d/1XNhvCU59X3I3vqrjay0S_upm3VakWBERsTLhu0hnP94/edit#gid=1457595598" target="_blank">specifikacija novca</a>
-</div>
+<div class="mobileHide">
+  <div class="meni_1">
+    <a class="active" href="">novci</a>
+    <a href="https://docs.google.com/spreadsheets/d/1XNhvCU59X3I3vqrjay0S_upm3VakWBERsTLhu0hnP94/edit#gid=1457595598" target="_blank">specifikacija novca</a>
+  </div>
 
-<div class="meni_2">
-  <a class="active" href="">liste</a>
-  <a href="https://docs.google.com/spreadsheets/d/1yfrzf_P0orFjcmG93W8jzqmiBqpBa8xuHKj4-D-wAn8" target="_blank">novci u kuverti (ladica)</a>
-<!--  <a href="https://docs.google.com/spreadsheets/d/15FJghJVcoP1MhWngy6WhIdObGBDkcse8xJ0HKvxhMSU/edit#gid=0" target="_blank">sitni novci kasa 1</a>
-  <a href="https://docs.google.com/spreadsheets/d/15FJghJVcoP1MhWngy6WhIdObGBDkcse8xJ0HKvxhMSU/edit#gid=154772167" target="_blank">sitni novci kasa 2</a>  -->
-  <a href="https://docs.google.com/spreadsheets/d/106wVmB6Dk7fcKA3ZOxCLRZ2YfLjLutN87ePdsMaMrzQ" target="_blank">otpis peciva i sendviča</a>
-  <a href="https://docs.google.com/spreadsheets/d/1nw393tqjK-hGuGKRnxxZ5HaXCx41kcAlkH0mRF6tm9Q" target="_blank">rokovi - lista</a>
+  <div class="meni_2">
+    <a class="active" href="">liste</a>
+    <a href="https://docs.google.com/spreadsheets/d/1yfrzf_P0orFjcmG93W8jzqmiBqpBa8xuHKj4-D-wAn8" target="_blank">novci u kuverti (ladica)</a>
+    <!--  <a href="https://docs.google.com/spreadsheets/d/15FJghJVcoP1MhWngy6WhIdObGBDkcse8xJ0HKvxhMSU/edit#gid=0" target="_blank">sitni novci kasa 1</a>
+    <a href="https://docs.google.com/spreadsheets/d/15FJghJVcoP1MhWngy6WhIdObGBDkcse8xJ0HKvxhMSU/edit#gid=154772167" target="_blank">sitni novci kasa 2</a>  -->
+    <a href="https://docs.google.com/spreadsheets/d/106wVmB6Dk7fcKA3ZOxCLRZ2YfLjLutN87ePdsMaMrzQ" target="_blank">otpis peciva i sendviča</a>
+    <a href="https://docs.google.com/spreadsheets/d/1nw393tqjK-hGuGKRnxxZ5HaXCx41kcAlkH0mRF6tm9Q" target="_blank">rokovi - lista</a>
+  </div>
 </div>
 
 <div class="meni_3">
-  <a class="active" href="https://kunstek.github.io/KTC_4L_v.html" target="_blank">razno</a>
-  <a href="https://drive.google.com/drive/u/1/folders/1at1x_fNQ9qIALEOpBxYTLUiFdIgUZhaY" target="_blank">datoteke za slanje</a>
-  <a href="https://drive.google.com/drive/u/1/folders/1L2Im5Ah7VpUdTZCkXCraQ4Xw5O-4MJzg" target="_blank">otpremnice Montana</a>
+  <div class="mobileHide">
+    <a class="active" href="https://kunstek.github.io/KTC_4L_v.html" target="_blank">razno</a>
+    <a href="https://drive.google.com/drive/u/1/folders/1at1x_fNQ9qIALEOpBxYTLUiFdIgUZhaY" target="_blank">datoteke za slanje</a>
+    <a href="https://drive.google.com/drive/u/1/folders/1L2Im5Ah7VpUdTZCkXCraQ4Xw5O-4MJzg" target="_blank">otpremnice Montana</a>
+  </div>
   <a href="https://workflowy.com/#/fb0a5732da33?q=#aktivna_prodaja today - 2099-12-31" target="_blank">aktivna prodaja</a>
 <!--  <a href="https://docs.google.com/spreadsheets/d/1eqmvxHLscY1zc7DZVaJG-SZXJWpnbeZP7U8-R07FZ44/edit#gid=0" target="_blank">prilagodba rasporeda</a>  -->
   <a href="https://workflowy.com/#/38a28410ac03?q=#zahtjev today - 2099-12-31" target="_blank">prilagodba rasporeda</a>
