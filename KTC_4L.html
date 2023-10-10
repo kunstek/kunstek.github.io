@@ -12,35 +12,36 @@ $(document).ready(function(){
         var inputvalue = $("#input_kupac").val();
         window.open("https://workflowy.com/#?q=#kupac "+inputvalue);
         window.location.reload();
-
     });
 
     $('#button_dobavljac').click(function(e) {  
         var inputvalue = $("#input_dobavljac").val();
         window.open("https://workflowy.com/#?q=#dobavljač "+inputvalue);
         window.location.reload();
-
     });
 
     $('#button_info').click(function(e) {  
         var inputvalue = $("#input_info").val();
         window.open("https://workflowy.com/#?q=#info "+inputvalue);
         window.location.reload();
-
     });
+
     $('#button_upute').click(function(e) {  
         var inputvalue = $("#input_upute").val();
         window.open("https://workflowy.com/#?q=#upute "+inputvalue);
         window.location.reload();
-
     });
 
+    $('#button_lozinke').click(function(e) {  
+        var inputvalue = $("#input_upute").val();
+        window.open("https://workflowy.com/#?q=#šifre ");
+        window.location.reload();
+    });
 
     $('#button_sve').click(function(e) {  
         var inputvalue = $("#input_sve").val();
         window.open("https://workflowy.com/#?q="+inputvalue);
         window.location.reload();
-
     });
 
 });
@@ -379,6 +380,10 @@ Tražilica:
 <p>
 <input type="text" value="" id="input_upute" placeholder="upute"> 
 <button type="button" id="button_upute">Traži</button>
+</p>
+<p>
+<input type="text" value="" id="input_sve" placeholder="šifre (lozinke)"> 
+<button type="button" id="button_lozinke">Traži</button>
 </p>
 <p>
 <input type="text" value="" id="input_sve" placeholder="sve"> 
