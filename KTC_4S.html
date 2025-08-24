@@ -2,54 +2,128 @@
 <html>
 <head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-
-h1 {
-  color: red;
-  font-family: Helvetica;
-   font-weight: bold;
-   font-size: 40px;
-   text-align: center;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
+.meni_1 {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.meni_1 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  table-layout: fixed;
+  width: 220px;
+}
+
+.meni_1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.meni_1 a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.meni_3 {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.meni_3 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  table-layout: fixed;
+  width: 220px;
+}
+
+.meni_3 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.meni_3 a.active {
+  background-color: gray;
+  color: white;
 }
 
 </style>
-
 </head>
-
 <body>
-
-
-
-<div class="center">
-
-
-<h1>
-
-Stranica prebačena na drugu lokaciju.</br></br>
-Molim otvorite <a href="https://zkunstek.codeberg.page/KTC_4S.html" target="_blank">izbornik</a> na novoj stranici </br>
-i napravite prečac na tu novu stranicu.
-
-</h1>
-
-
-
-
+ 
+<div style="padding-left:16px">
+  <h2>KTC 4S</h2>
+<!--  <p>Linkovi na razne dokumente</p>  -->
 </div>
+
+<div class="meni_1">
+  <a class="active" href="">izvještaji</a>
+    <a href="https://docs.google.com/spreadsheets/d/1vN8Tz2xm_v4NMM_M_cOYevjgMCZ0zqHdptrANtEoDwk" target="_blank">cijene konkurencije</a>
+    <a href="https://docs.google.com/spreadsheets/d/1Ewp_AjVtVYxVeMQNO7PYiNVhkgMAuREHNpG38q7K5gY" target="_blank">obrtaji</a>
+    <a href="https://docs.google.com/spreadsheets/d/1XuVv_5xexHvY5Ibx-0pRC8umJexd9yLthgbVREHWirw" target="_blank">prodane količine</a>
+    <a href="https://docs.google.com/spreadsheets/d/1xQ8mhkFK92kgDOhIguiN7C8G7lR2_dGO4Z8oVvs7i8A" target="_blank">razlike robno - knjiga</a>
+</div>
+
+<div class="meni_1">
+  <a class="active" href="">evidencije</a>
+    <a href="https://docs.google.com/spreadsheets/d/1FU19fnhk1xy4WSLK24FCFaUaY_7zklvbk1adBBokQmM/edit?gid=1778885534#gid=1778885534" target="_blank">bonovi</a>
+    <a href="https://docs.google.com/spreadsheets/d/1FU19fnhk1xy4WSLK24FCFaUaY_7zklvbk1adBBokQmM/edit?gid=0#gid=0" target="_blank">istovar goriva</a>
+    <a href="https://docs.google.com/spreadsheets/d/15NyjkB58NAI2V0dg3nb4kN2ZHJ8Y39tI-Nx4RbhWTf0/edit?gid=1643262185" target="_blank">istovar goriva (Sandra)</a>  <!-- ************ -->
+</div>
+
+<div class="meni_1">
+  <a class="active" href="">gorivo</a>
+    <a href="https://docs.google.com/spreadsheets/d/1gnwj2t16oKH-m9nnxgr82arS3nOtv3cqMVvKX6LqTbc" target="_blank">inventura goriva</a>
+    <a href="https://docs.google.com/spreadsheets/d/1JzfIbUwE5UIk4UpbDyCWr0FWAWjNnLOGwDJNs_h-GdY" target="_blank">raspored goriva</a>
+</div>
+
+<div class="meni_1">
+  <a class="active" href="">narudžbe</a>
+    <a href="https://docs.google.com/spreadsheets/d/1qX1rGht1sRgLKpz8mpMzIQwjwKiu0uTvUVAUAubIIAM" target="_blank">narudžba robe</a>
+</div>
+
+<div class="meni_1">
+  <a class="active" href="">roba</a>
+    <a href="https://docs.google.com/spreadsheets/d/1XHN-_J0CPWIbPi_QgfVw1kPObTokQmlW6lSG5UyORK8" target="_blank">roba</a>
+    <a href="https://docs.google.com/spreadsheets/d/1J2RQeqYrxMmd_diK2FB1p7FFj59PO4Ung8bKttGVcDY" target="_blank">letak</a>
+    <a href="https://docs.google.com/spreadsheets/d/1So298nxC8sHw5gM3cRKSgieooT3pExw-2Xlk36LPr-g" target="_blank">rokovi</a>
+    <a href="https://docs.google.com/spreadsheets/d/1AV85AvvzyTBTqRWtf5qZn2E5b-2siUc1yKajpOYtTqY" target="_blank">zahtjev za sniženje</a>
+</div>
+
+<div class="meni_1">
+  <a class="active" href="">radnici</a>
+    <a href="https://docs.google.com/spreadsheets/d/1NZFciM2pfLWkjjIiiHKakaIxigMx6jGbzaChXQ4nVJQ" target="_blank">uvjerenja radnika</a>
+</div>
+
+<div class="meni_3">
+  <a class="active" href="">razno</a>
+    <a href="https://docs.google.com/spreadsheets/d/1r82tlmnVvwpFwlQ1hxMvUuOV4obM8nYdIfsCwynczOw" target="_blank">prijava kvarova</a>
+</div>
+
+<br />
+<center>
+
+<br /><br />
+<!-- <font size="2">info: <a href="https://t.me/zkunstek" target="_blank">zkunstek</a></font> -->
+<font size="2">info: <a href="mailto:kunstek.zeljko@gmail.com" target="_blank">zkunstek</a></font>
+<br /><br />
+</center>
 
 
 </body>
-
-
-
 </html>
-
-
-
